@@ -2,11 +2,11 @@
 <defs>
 <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8b5cf6"/><stop offset=".55" stop-color="#22d3ee"/><stop offset="1" stop-color="#f472b6"/></linearGradient>
 <linearGradient id="gt" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#c4b5fd"/><stop offset=".5" stop-color="#67e8f9"/><stop offset="1" stop-color="#f9a8d4"/></linearGradient>
-<linearGradient id="glass" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff" stop-opacity=".09"/><stop offset="1" stop-color="#ffffff" stop-opacity=".025"/></linearGradient>
-<linearGradient id="edge" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff" stop-opacity=".28"/><stop offset=".5" stop-color="#ffffff" stop-opacity=".06"/><stop offset="1" stop-color="#ffffff" stop-opacity=".2"/></linearGradient>
+<linearGradient id="glass" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff" stop-opacity="0.09"/><stop offset="1" stop-color="#ffffff" stop-opacity="0.025"/></linearGradient>
+<linearGradient id="edge" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff" stop-opacity="0.28"/><stop offset=".5" stop-color="#ffffff" stop-opacity="0.06"/><stop offset="1" stop-color="#ffffff" stop-opacity="0.28"/></linearGradient>
 <filter id="blur60" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="55"/></filter>
 <filter id="blur8" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="8"/></filter>
-<pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r="1" fill="#ffffff" fill-opacity=".07"/></pattern></defs>
+<pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r="1" fill="#ffffff" fill-opacity="0.07"/></pattern></defs>
 <g transform="translate(0 0)">
 <defs>
 <linearGradient id="b0" x1="0" y1="0" x2="1" y2="1">
@@ -41,7 +41,7 @@
 
 <text x="22" y="52" font-size="40" font-weight="800" letter-spacing="-1.5" fill="url(#gt)">60%</text>
 <text x="22" y="76" font-size="12.5" fill="#a5a3c4">less manual data entry (OCR)</text>
-<rect x="22" y="80" width="151" height="3" rx="1.5" fill="#fff" fill-opacity=".08"/>
+<rect x="22" y="80" width="151" height="3" rx="1.5" fill="#ffffff" fill-opacity=".1"/>
 <rect x="22" y="80" width="0" height="3" rx="1.5" fill="#22d3ee"><animate attributeName="width" values="0;151;151" keyTimes="0;.35;1" dur="6s" begin="0s" repeatCount="indefinite"/></rect>
 </g><g transform="translate(625 0)">
 <defs>
@@ -59,7 +59,7 @@
 
 <text x="22" y="52" font-size="40" font-weight="800" letter-spacing="-1.5" fill="url(#gt)">80%</text>
 <text x="22" y="76" font-size="12.5" fill="#a5a3c4">less manual accounting</text>
-<rect x="22" y="80" width="161" height="3" rx="1.5" fill="#fff" fill-opacity=".08"/>
+<rect x="22" y="80" width="161" height="3" rx="1.5" fill="#ffffff" fill-opacity=".1"/>
 <rect x="22" y="80" width="0" height="3" rx="1.5" fill="#8b5cf6"><animate attributeName="width" values="0;161;161" keyTimes="0;.35;1" dur="6s" begin="0.4s" repeatCount="indefinite"/></rect>
 </g><g transform="translate(420 112)">
 <defs>
@@ -77,7 +77,7 @@
 
 <text x="22" y="52" font-size="40" font-weight="800" letter-spacing="-1.5" fill="url(#gt)">40%</text>
 <text x="22" y="76" font-size="12.5" fill="#a5a3c4">lower API latency</text>
-<rect x="22" y="80" width="151" height="3" rx="1.5" fill="#fff" fill-opacity=".08"/>
+<rect x="22" y="80" width="151" height="3" rx="1.5" fill="#ffffff" fill-opacity=".1"/>
 <rect x="22" y="80" width="0" height="3" rx="1.5" fill="#f472b6"><animate attributeName="width" values="0;151;151" keyTimes="0;.35;1" dur="6s" begin="0.8s" repeatCount="indefinite"/></rect>
 </g><g transform="translate(625 112)">
 <defs>
@@ -95,7 +95,7 @@
 
 <text x="22" y="52" font-size="40" font-weight="800" letter-spacing="-1.5" fill="url(#gt)">99%+</text>
 <text x="22" y="76" font-size="12.5" fill="#a5a3c4">uptime in production</text>
-<rect x="22" y="80" width="161" height="3" rx="1.5" fill="#fff" fill-opacity=".08"/>
+<rect x="22" y="80" width="161" height="3" rx="1.5" fill="#ffffff" fill-opacity=".1"/>
 <rect x="22" y="80" width="0" height="3" rx="1.5" fill="#4ade80"><animate attributeName="width" values="0;161;161" keyTimes="0;.35;1" dur="6s" begin="1.2s" repeatCount="indefinite"/></rect>
 </g><g transform="translate(0 224)">
 <defs>

@@ -3,6 +3,11 @@
 import { writeFileSync } from 'node:fs';
 import { T, STACKS, fontCollector } from './lib.mjs';
 
+const LIGHT = process.argv[2] === 'light';
+const P = LIGHT
+  ? { panel: '#ffffff', stroke: '#7c3aed', muted: '#4b4a6b', body: '#2e2b57', line: '#1e1b4b22', u: '#8a89a8', g1: '#6d28d9', g2: '#0e7490', g3: '#be185d', violet: '#7c3aed', cyan: '#0e7490' }
+  : { panel: '#0d0b1c', stroke: '#8b5cf6', muted: T.muted, body: T.body, line: T.line, u: '#3a4060', g1: '#c4b5fd', g2: '#67e8f9', g3: '#f9a8d4', violet: T.violet, cyan: T.cyan };
+const OUT = LIGHT ? 'assets/stats-light.svg' : 'assets/stats.svg';
 const LOGIN = process.env.PROFILE_LOGIN || 'Rohankhan5990';
 const token = process.env.GITHUB_TOKEN;
 if (!token) throw new Error('GITHUB_TOKEN is required');
@@ -94,10 +99,10 @@ const updated = f.use('mono', `updated ${new Date().toISOString().slice(0, 10)}`
 const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="GitHub stats for ${LOGIN}: ${STATS.map(([l, v]) => `${l} ${v}`).join(', ')}">
 <style>${await f.css()}
 .v{font:800 46px ${STACKS.sans};letter-spacing:-.03em;fill:url(#nm)}
-.l{font:500 10.5px ${STACKS.mono};fill:${T.muted};letter-spacing:.16em}
-.k{font:500 10.5px ${STACKS.mono};fill:${T.muted};letter-spacing:.18em}
-.lg{font:400 12.5px ${STACKS.sans};fill:${T.body}}
-.u{font:400 10px ${STACKS.mono};fill:#3a4060}
+.l{font:500 10.5px ${STACKS.mono};fill:${P.muted};letter-spacing:.16em}
+.k{font:500 10.5px ${STACKS.mono};fill:${P.muted};letter-spacing:.18em}
+.lg{font:400 12.5px ${STACKS.sans};fill:${P.body}}
+.u{font:400 10px ${STACKS.mono};fill:${P.u}}
 .draw{stroke-dasharray:${len.toFixed(0)};stroke-dashoffset:${len.toFixed(0)};animation:draw 2.6s cubic-bezier(.4,0,.2,1) forwards}
 @keyframes draw{to{stroke-dashoffset:0}}
 .fade{opacity:0;animation:fade 1s 1.6s forwards}
@@ -106,24 +111,24 @@ const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" 
 @keyframes ping{0%{transform:scale(.6);opacity:.9}100%{transform:scale(2.6);opacity:0}}
 </style>
 <defs>
-<linearGradient id="nm" x1="0" x2="1"><stop offset="0" stop-color="#c4b5fd"/><stop offset=".6" stop-color="#67e8f9"/><stop offset="1" stop-color="#f9a8d4"/></linearGradient>
-<linearGradient id="ln" x1="0" x2="1"><stop offset="0" stop-color="${T.violet}"/><stop offset="1" stop-color="${T.cyan}"/></linearGradient>
-<linearGradient id="ar" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${T.cyan}" stop-opacity=".22"/><stop offset="1" stop-color="${T.cyan}" stop-opacity="0"/></linearGradient>
+<linearGradient id="nm" x1="0" x2="1"><stop offset="0" stop-color="${P.g1}"/><stop offset=".6" stop-color="${P.g2}"/><stop offset="1" stop-color="${P.g3}"/></linearGradient>
+<linearGradient id="ln" x1="0" x2="1"><stop offset="0" stop-color="${P.violet}"/><stop offset="1" stop-color="${P.cyan}"/></linearGradient>
+<linearGradient id="ar" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${P.cyan}" stop-opacity=".22"/><stop offset="1" stop-color="${P.cyan}" stop-opacity="0"/></linearGradient>
 </defs>
-<rect width="${W}" height="${H}" rx="20" fill="#0d0b1c"/>
-<rect x=".75" y=".75" width="${W - 1.5}" height="${H - 1.5}" rx="19.25" fill="none" stroke="#8b5cf6" stroke-opacity=".45" stroke-width="1.5"/>
-<rect x="408" y="32" width="1" height="${H - 64}" fill="${T.line}"/>
+<rect width="${W}" height="${H}" rx="20" fill="${P.panel}"/>
+<rect x=".75" y=".75" width="${W - 1.5}" height="${H - 1.5}" rx="19.25" fill="none" stroke="${P.stroke}" stroke-opacity=".45" stroke-width="1.5"/>
+<rect x="408" y="32" width="1" height="${H - 64}" fill="${P.line}"/>
 ${statsSvg}
 <text class="k" x="${sx}" y="38">${kickL}</text>
 <path class="fade" d="${area}" fill="url(#ar)"/>
 <path class="draw" d="${line}" fill="none" stroke="url(#ln)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
-<circle class="ping" cx="${last[0].toFixed(1)}" cy="${last[1].toFixed(1)}" r="5" fill="none" stroke="${T.cyan}"/>
-<circle class="fade" cx="${last[0].toFixed(1)}" cy="${last[1].toFixed(1)}" r="3" fill="${T.cyan}"/>
+<circle class="ping" cx="${last[0].toFixed(1)}" cy="${last[1].toFixed(1)}" r="5" fill="none" stroke="${P.cyan}"/>
+<circle class="fade" cx="${last[0].toFixed(1)}" cy="${last[1].toFixed(1)}" r="3" fill="${P.cyan}"/>
 <text class="k" x="${sx}" y="182">${kickR}</text>
 ${bars}
 ${legend}
 <text class="u" x="${W - 32}" y="38" text-anchor="end">${updated}</text>
 </svg>`;
 
-writeFileSync('assets/stats.svg', svg);
-console.log('wrote assets/stats.svg', STATS);
+writeFileSync(OUT, svg);
+console.log('wrote', OUT, STATS);

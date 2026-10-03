@@ -1,8 +1,8 @@
-<!-- Assets are generated: `node scripts/build-modern.mjs` (hero, headers, bento tiles, contact)
-     and `node scripts/stats.mjs` (stats card). Pure SVG with SMIL animation, no external services. -->
+<!-- Assets are generated: `node scripts/build-modern.mjs [light]` (hero, headers, bento tiles, contact)
+     and `node scripts/stats.mjs [light]` (stats card). Pure SVG with SMIL animation, no external services. -->
 
 <a href="https://rohan-portfolio-e864a.web.app">
-  <img src="assets/hero.svg" width="100%" alt="Rohan Khan — AI/ML Engineer and Full-Stack developer, open to roles. RAG pipelines, LLM products, FastAPI, Django, NestJS and Next.js." />
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/hero.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg" /><img src="assets/hero.svg" width="100%" alt="Rohan Khan — AI/ML Engineer and Full-Stack developer, open to roles. RAG pipelines, LLM products, FastAPI, Django, NestJS and Next.js." /></picture>
 </a>
 
 <p align="center">
@@ -13,42 +13,42 @@
 
 <br />
 
-<img src="assets/headers/01.svg" width="100%" alt="01 — About" />
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/headers/01.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/headers/01-light.svg" /><img src="assets/headers/01.svg" width="100%" alt="01 — About" /></picture>
 
-<img src="assets/bento/about.svg" width="100%" alt="About: I build AI-powered web apps end to end. 60% less manual data entry with OCR, 80% less manual accounting, 40% lower API latency, 99%+ production uptime. Now: Software Engineer at Techverx since July 2025. Before: GenITeam Solutions, InvoZone, PureLogics; BSCS University of South Asia." />
-
-<br />
-
-<img src="assets/headers/02.svg" width="100%" alt="02 — How I build" />
-
-<img src="assets/bento/pipeline.svg" width="100%" alt="The pipeline behind my AI web apps: data, embed, retrieve, reason, serve, ship, with an evaluation and user-feedback loop back to the start." />
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/bento/about.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/bento/about-light.svg" /><img src="assets/bento/about.svg" width="100%" alt="About: I build AI-powered web apps end to end. 60% less manual data entry with OCR, 80% less manual accounting, 40% lower API latency, 99%+ production uptime. Now: Software Engineer at Techverx since July 2025. Before: GenITeam Solutions, InvoZone, PureLogics; BSCS University of South Asia." /></picture>
 
 <br />
 
-<img src="assets/headers/03.svg" width="100%" alt="03 — Selected work" />
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/headers/02.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/headers/02-light.svg" /><img src="assets/headers/02.svg" width="100%" alt="02 — How I build" /></picture>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/bento/pipeline.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/bento/pipeline-light.svg" /><img src="assets/bento/pipeline.svg" width="100%" alt="The pipeline behind my AI web apps: data, embed, retrieve, reason, serve, ship, with an evaluation and user-feedback loop back to the start." /></picture>
+
+<br />
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/headers/03.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/headers/03-light.svg" /><img src="assets/headers/03.svg" width="100%" alt="03 — Selected work" /></picture>
 
 <p align="center">
-  <a href="https://rohan-portfolio-e864a.web.app"><img src="assets/bento/kheloo.svg" width="64%" alt="Kheloo — sports court booking with Gemini smart venue search" /></a>
-  <a href="https://mercurydasha.com"><img src="assets/bento/mercury-dasha.svg" width="34%" alt="Mercury Dasha — generative AI platform for text, image and video, live" /></a>
-  <a href="https://travelwithmoiz.com"><img src="assets/bento/ai-travel.svg" width="32%" alt="AI Travel Platform — RAG chatbot and WhatsApp booking, live" /></a>
-  <a href="https://github.com/rohan-techverx/BIlling-reports-rag"><img src="assets/bento/billing-rag.svg" width="32%" alt="Billing Reports RAG — natural-language Q&A over billing reports" /></a>
-  <a href="https://rohan-portfolio-e864a.web.app"><img src="assets/bento/pdf-fraud.svg" width="32%" alt="PDF Fraud Detector — machine-learning document analysis" /></a>
-  <a href="https://rohan-portfolio-e864a.web.app"><img src="assets/bento/pmo-engine.svg" width="100%" alt="PMO Engine (T360) — enterprise platform on NestJS and AWS" /></a>
+  <a href="https://rohan-portfolio-e864a.web.app"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/bento/kheloo.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/bento/kheloo-light.svg" /><img src="assets/bento/kheloo.svg" width="64%" alt="Kheloo — sports court booking with Gemini smart venue search" /></picture></a>
+  <a href="https://mercurydasha.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/bento/mercury-dasha.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/bento/mercury-dasha-light.svg" /><img src="assets/bento/mercury-dasha.svg" width="34%" alt="Mercury Dasha — generative AI platform for text, image and video, live" /></picture></a>
+  <a href="https://travelwithmoiz.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/bento/ai-travel.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/bento/ai-travel-light.svg" /><img src="assets/bento/ai-travel.svg" width="32%" alt="AI Travel Platform — RAG chatbot and WhatsApp booking, live" /></picture></a>
+  <a href="https://github.com/rohan-techverx/BIlling-reports-rag"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/bento/billing-rag.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/bento/billing-rag-light.svg" /><img src="assets/bento/billing-rag.svg" width="32%" alt="Billing Reports RAG — natural-language Q&A over billing reports" /></picture></a>
+  <a href="https://rohan-portfolio-e864a.web.app"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/bento/pdf-fraud.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/bento/pdf-fraud-light.svg" /><img src="assets/bento/pdf-fraud.svg" width="32%" alt="PDF Fraud Detector — machine-learning document analysis" /></picture></a>
+  <a href="https://rohan-portfolio-e864a.web.app"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/bento/pmo-engine.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/bento/pmo-engine-light.svg" /><img src="assets/bento/pmo-engine.svg" width="100%" alt="PMO Engine (T360) — enterprise platform on NestJS and AWS" /></picture></a>
 </p>
 
 <br />
 
-<img src="assets/headers/04.svg" width="100%" alt="04 — Toolkit" />
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/headers/04.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/headers/04-light.svg" /><img src="assets/headers/04.svg" width="100%" alt="04 — Toolkit" /></picture>
 
-<img src="assets/bento/stack.svg" width="100%" alt="Toolkit — AI/ML: LangChain, RAG, ChromaDB, GPT-4o, Claude, Gemini, TensorFlow, scikit-learn, OCR. Backend: Python, Django REST, FastAPI, NestJS, Node.js. Frontend: Next.js, React, TypeScript, Tailwind. Data: PostgreSQL, MongoDB, Redis, Prisma. Cloud and tools: AWS, ECS Fargate, S3, Docker, DigitalOcean, Linux, Git." />
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/bento/stack.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/bento/stack-light.svg" /><img src="assets/bento/stack.svg" width="100%" alt="Toolkit — AI/ML: LangChain, RAG, ChromaDB, GPT-4o, Claude, Gemini, TensorFlow, scikit-learn, OCR. Backend: Python, Django REST, FastAPI, NestJS, Node.js. Frontend: Next.js, React, TypeScript, Tailwind. Data: PostgreSQL, MongoDB, Redis, Prisma. Cloud and tools: AWS, ECS Fargate, S3, Docker, DigitalOcean, Linux, Git." /></picture>
 
 <p align="center"><sub>📜 &nbsp;Python for Data Science — IBM &nbsp;·&nbsp; Django REST Framework — Udemy &nbsp;·&nbsp; Python AI/ML Bootcamp — PureLogics</sub></p>
 
 <br />
 
-<img src="assets/headers/05.svg" width="100%" alt="05 — Activity" />
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/headers/05.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/headers/05-light.svg" /><img src="assets/headers/05.svg" width="100%" alt="05 — Activity" /></picture>
 
-<img src="assets/stats.svg" width="100%" alt="GitHub stats: repositories, languages, contributions and top languages" />
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/stats.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/stats-light.svg" /><img src="assets/stats.svg" width="100%" alt="GitHub stats: repositories, languages, contributions and top languages" /></picture>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Rohankhan5990/Rohankhan5990/output/snake-dark.svg" />
@@ -58,7 +58,7 @@
 
 <br /><br />
 
-<img src="assets/contact.svg" width="100%" alt="Let's build something intelligent. Open to AI/ML and full-stack roles, remote, hybrid or on-site, and to LLM product collaborations." />
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/contact.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/contact-light.svg" /><img src="assets/contact.svg" width="100%" alt="Let's build something intelligent. Open to AI/ML and full-stack roles, remote, hybrid or on-site, and to LLM product collaborations." /></picture>
 
 <p align="center">
   <a href="mailto:rohankhan5990@gmail.com"><img src="https://img.shields.io/badge/rohankhan5990@gmail.com-8b5cf6?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>

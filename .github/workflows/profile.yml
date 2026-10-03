@@ -48,11 +48,13 @@ jobs:
           node-version: 22
       - name: Build stats card
         if: env.PROFILE_TOKEN != ''
-        run: GITHUB_TOKEN="$PROFILE_TOKEN" node scripts/stats.mjs
+        run: |
+          GITHUB_TOKEN="$PROFILE_TOKEN" node scripts/stats.mjs
+          GITHUB_TOKEN="$PROFILE_TOKEN" node scripts/stats.mjs light
       - name: Commit
         if: env.PROFILE_TOKEN != ''
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/stats.svg
+          git add assets/stats.svg assets/stats-light.svg
           git diff --cached --quiet || (git commit -m "chore: refresh stats card" && git push)

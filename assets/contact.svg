@@ -2,18 +2,18 @@
 <defs>
 <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8b5cf6"/><stop offset=".55" stop-color="#22d3ee"/><stop offset="1" stop-color="#f472b6"/></linearGradient>
 <linearGradient id="gt" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#c4b5fd"/><stop offset=".5" stop-color="#67e8f9"/><stop offset="1" stop-color="#f9a8d4"/></linearGradient>
-<linearGradient id="glass" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff" stop-opacity=".09"/><stop offset="1" stop-color="#ffffff" stop-opacity=".025"/></linearGradient>
-<linearGradient id="edge" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff" stop-opacity=".28"/><stop offset=".5" stop-color="#ffffff" stop-opacity=".06"/><stop offset="1" stop-color="#ffffff" stop-opacity=".2"/></linearGradient>
+<linearGradient id="glass" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff" stop-opacity="0.09"/><stop offset="1" stop-color="#ffffff" stop-opacity="0.025"/></linearGradient>
+<linearGradient id="edge" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff" stop-opacity="0.28"/><stop offset=".5" stop-color="#ffffff" stop-opacity="0.06"/><stop offset="1" stop-color="#ffffff" stop-opacity="0.28"/></linearGradient>
 <filter id="blur60" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="55"/></filter>
 <filter id="blur8" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="8"/></filter>
-<pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r="1" fill="#ffffff" fill-opacity=".07"/></pattern></defs>
+<pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r="1" fill="#ffffff" fill-opacity="0.07"/></pattern></defs>
 
 <rect width="830" height="210" rx="28" fill="#07060f"/>
 <clipPath id="cc"><rect width="830" height="210" rx="28"/></clipPath>
 <g clip-path="url(#cc)"><circle cx="120" cy="160" r="120" fill="#8b5cf6" opacity="0.8" filter="url(#blur60)"><animateTransform attributeName="transform" type="translate" values="0 0;160 -40;0 0" dur="13s" repeatCount="indefinite"/></circle><circle cx="720" cy="40" r="120" fill="#22d3ee" opacity="0.55" filter="url(#blur60)"><animateTransform attributeName="transform" type="translate" values="0 0;-150 60;0 0" dur="16s" repeatCount="indefinite"/></circle><circle cx="430" cy="230" r="110" fill="#f472b6" opacity="0.5" filter="url(#blur60)"><animateTransform attributeName="transform" type="translate" values="0 0;80 -50;0 0" dur="11s" repeatCount="indefinite"/></circle><rect width="830" height="210" fill="url(#dots)"/></g>
 <rect x=".75" y=".75" width="828.5" height="208.5" rx="27.25" stroke="url(#edge)" stroke-width="1.5"/>
 <text x="415" y="82" text-anchor="middle" font-size="38" font-weight="800" letter-spacing="-1" fill="url(#gt)">Let's build something intelligent.</text>
-<text x="415" y="118" text-anchor="middle" font-size="16" fill="#d9d4f5">Open to AI/ML and full-stack roles — remote, hybrid or on-site —</text>
-<text x="415" y="142" text-anchor="middle" font-size="16" fill="#d9d4f5">and to product collaborations that put LLMs to real work.</text>
+<text x="415" y="118" text-anchor="middle" font-size="16" fill="#e9e5ff">Open to AI/ML and full-stack roles — remote, hybrid or on-site —</text>
+<text x="415" y="142" text-anchor="middle" font-size="16" fill="#e9e5ff">and to product collaborations that put LLMs to real work.</text>
 <text x="415" y="184" text-anchor="middle" font-family="'JetBrains Mono','SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" letter-spacing="2" fill="#a5a3c4">DATA IN  →  INTELLIGENCE OUT  →  SHIPPED</text>
 </svg>
