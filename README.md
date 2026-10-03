@@ -9,7 +9,6 @@
   <a href="https://rohan-portfolio-e864a.web.app"><img src="https://img.shields.io/badge/Portfolio-0c0f1c?style=for-the-badge&logo=googlechrome&logoColor=67e8f9" alt="Portfolio" /></a>
   <a href="https://www.linkedin.com/in/rohan-khan-01584a23a/"><img src="https://img.shields.io/badge/LinkedIn-0c0f1c?style=for-the-badge&logo=linkedin&logoColor=a78bfa" alt="LinkedIn" /></a>
   <a href="mailto:rohankhan5990@gmail.com"><img src="https://img.shields.io/badge/Email-0c0f1c?style=for-the-badge&logo=gmail&logoColor=67e8f9" alt="Email" /></a>
-  <img src="https://komarev.com/ghpvc/?username=Rohankhan5990&style=for-the-badge&color=0c0f1c&label=PROFILE+VIEWS" alt="Profile views" />
 </p>
 
 <br />
