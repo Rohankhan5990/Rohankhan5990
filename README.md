@@ -1,77 +1,52 @@
-<!-- Assets are generated: `node scripts/build-assets.mjs` (headers, pipeline, cards, toolkit)
-     and `node scripts/stats.mjs` (stats card). The hero is a pre-rendered three.js scene. -->
+<!-- Assets are generated: `node scripts/build-modern.mjs` (hero, headers, bento tiles, contact)
+     and `node scripts/stats.mjs` (stats card). Pure SVG with SMIL animation, no external services. -->
 
 <a href="https://rohan-portfolio-e864a.web.app">
-  <img src="assets/hero.gif" width="100%" alt="Rohan Khan — AI/ML Engineer and Full-Stack developer. A three.js neural network with data flowing into it." />
+  <img src="assets/hero.svg" width="100%" alt="Rohan Khan — AI/ML Engineer and Full-Stack developer, open to roles. RAG pipelines, LLM products, FastAPI, Django, NestJS and Next.js." />
 </a>
 
 <p align="center">
-  <a href="https://rohan-portfolio-e864a.web.app"><img src="https://img.shields.io/badge/Portfolio-0c0f1c?style=for-the-badge&logo=googlechrome&logoColor=67e8f9" alt="Portfolio" /></a>
-  <a href="https://www.linkedin.com/in/rohan-khan-01584a23a/"><img src="https://img.shields.io/badge/LinkedIn-0c0f1c?style=for-the-badge&logo=linkedin&logoColor=a78bfa" alt="LinkedIn" /></a>
-  <a href="mailto:rohankhan5990@gmail.com"><img src="https://img.shields.io/badge/Email-0c0f1c?style=for-the-badge&logo=gmail&logoColor=67e8f9" alt="Email" /></a>
+  <a href="https://rohan-portfolio-e864a.web.app"><img src="https://img.shields.io/badge/Portfolio-8b5cf6?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://www.linkedin.com/in/rohan-khan-01584a23a/"><img src="https://img.shields.io/badge/LinkedIn-22d3ee?style=for-the-badge&logo=linkedin&logoColor=0b0a14" alt="LinkedIn" /></a>
+  <a href="mailto:rohankhan5990@gmail.com"><img src="https://img.shields.io/badge/Email-f472b6?style=for-the-badge&logo=gmail&logoColor=0b0a14" alt="Email" /></a>
 </p>
 
 <br />
 
-<img src="assets/headers/about.svg" width="100%" alt="01 — About" />
+<img src="assets/headers/01.svg" width="100%" alt="01 — About" />
 
-I'm a **Software Engineer in Lahore** who builds **AI-powered web applications** end to end — from the retrieval pipeline and the LLM prompt to the API, the interface and the cloud it runs on.
-
-- 🧠 &nbsp;**AI / ML** — RAG pipelines with LangChain + ChromaDB, LLM features on GPT-4o, Claude and Gemini, semantic search, OCR automation that cut manual data entry by **60%**
-- ⚙️ &nbsp;**Backend** — Django REST, FastAPI and NestJS services; PASETO / JWT / Azure AD SSO; Redis queues
-- 🖥️ &nbsp;**Web** — Next.js and React products with clean, fast interfaces
-- ☁️ &nbsp;**Cloud** — AWS (S3, ECS Fargate, CloudWatch) and DigitalOcean, with **99%+ uptime** in production
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <sub><b>NOW</b></sub><br />
-      <b>Software Engineer · Techverx</b> <sub>Jul 2025 – present</sub><br />
-      <sub>Enterprise SaaS APIs, RAG document Q&amp;A, QuickBooks automation (~80% less manual accounting), ~40% lower API latency.</sub>
-    </td>
-    <td width="50%" valign="top">
-      <sub><b>BEFORE</b></sub><br />
-      <b>GenITeam Solutions</b> <sub>Associate SE · 2024 – 25</sub><br />
-      <b>InvoZone</b> <sub>Django intern · 2024</sub> &nbsp;·&nbsp; <b>PureLogics</b> <sub>Python / data science · 2023</sub><br />
-      <sub>🎓 BSCS, University of South Asia (2020 – 2024)</sub>
-    </td>
-  </tr>
-</table>
+<img src="assets/bento/about.svg" width="100%" alt="About: I build AI-powered web apps end to end. 60% less manual data entry with OCR, 80% less manual accounting, 40% lower API latency, 99%+ production uptime. Now: Software Engineer at Techverx since July 2025. Before: GenITeam Solutions, InvoZone, PureLogics; BSCS University of South Asia." />
 
 <br />
 
-<img src="assets/headers/flow.svg" width="100%" alt="02 — How I build" />
+<img src="assets/headers/02.svg" width="100%" alt="02 — How I build" />
 
-<img src="assets/pipeline.svg" width="100%" alt="The pipeline behind my AI web apps: data, embed, retrieve, reason, serve, ship — with an evaluation and user-feedback loop back to the data." />
-
-<br />
-
-<img src="assets/headers/work.svg" width="100%" alt="03 — Selected work" />
-
-<p>
-  <a href="https://mercurydasha.com"><img src="assets/cards/mercury-dasha.svg" width="49%" alt="Mercury Dasha — generative AI platform for text, image and video" /></a>
-  <a href="https://travelwithmoiz.com"><img src="assets/cards/ai-travel.svg" width="49%" alt="AI Travel Platform — RAG chatbot and WhatsApp booking, live" /></a>
-  <a href="https://github.com/rohan-techverx/BIlling-reports-rag"><img src="assets/cards/billing-rag.svg" width="49%" alt="Billing Reports RAG — natural-language Q&amp;A over billing reports" /></a>
-  <a href="https://rohan-portfolio-e864a.web.app"><img src="assets/cards/kheloo.svg" width="49%" alt="Kheloo — sports court booking with Gemini smart search" /></a>
-  <a href="https://rohan-portfolio-e864a.web.app"><img src="assets/cards/pdf-fraud.svg" width="49%" alt="PDF Fraud Detector — machine-learning document analysis" /></a>
-  <a href="https://rohan-portfolio-e864a.web.app"><img src="assets/cards/pmo-engine.svg" width="49%" alt="PMO Engine (T360) — enterprise platform on NestJS and AWS" /></a>
-</p>
+<img src="assets/bento/pipeline.svg" width="100%" alt="The pipeline behind my AI web apps: data, embed, retrieve, reason, serve, ship, with an evaluation and user-feedback loop back to the start." />
 
 <br />
 
-<img src="assets/headers/toolkit.svg" width="100%" alt="04 — Toolkit" />
-
-<img src="assets/toolkit.svg" width="100%" alt="Toolkit — AI/ML: LangChain, RAG, ChromaDB, GPT, Claude, Gemini, TensorFlow, scikit-learn. Backend: Python, Django, FastAPI, NestJS, Node.js. Frontend: Next.js, React, Tailwind. Data: PostgreSQL, MongoDB, Redis. Cloud: AWS, DigitalOcean, Docker." />
+<img src="assets/headers/03.svg" width="100%" alt="03 — Selected work" />
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=py,tensorflow,sklearn,django,fastapi,nestjs,nodejs,ts,react,nextjs,tailwind,postgres,mongodb,redis,prisma,docker,aws,linux,git&perline=19&theme=dark" width="100%" alt="Python, TensorFlow, scikit-learn, Django, FastAPI, NestJS, Node.js, TypeScript, React, Next.js, Tailwind, PostgreSQL, MongoDB, Redis, Prisma, Docker, AWS, Linux, Git" />
+  <a href="https://rohan-portfolio-e864a.web.app"><img src="assets/bento/kheloo.svg" width="64%" alt="Kheloo — sports court booking with Gemini smart venue search" /></a>
+  <a href="https://mercurydasha.com"><img src="assets/bento/mercury-dasha.svg" width="34%" alt="Mercury Dasha — generative AI platform for text, image and video, live" /></a>
+  <a href="https://travelwithmoiz.com"><img src="assets/bento/ai-travel.svg" width="32%" alt="AI Travel Platform — RAG chatbot and WhatsApp booking, live" /></a>
+  <a href="https://github.com/rohan-techverx/BIlling-reports-rag"><img src="assets/bento/billing-rag.svg" width="32%" alt="Billing Reports RAG — natural-language Q&A over billing reports" /></a>
+  <a href="https://rohan-portfolio-e864a.web.app"><img src="assets/bento/pdf-fraud.svg" width="32%" alt="PDF Fraud Detector — machine-learning document analysis" /></a>
+  <a href="https://rohan-portfolio-e864a.web.app"><img src="assets/bento/pmo-engine.svg" width="100%" alt="PMO Engine (T360) — enterprise platform on NestJS and AWS" /></a>
 </p>
 
-<sub>📜 &nbsp;Python for Data Science — IBM &nbsp;·&nbsp; Django REST Framework — Udemy &nbsp;·&nbsp; Python AI/ML Bootcamp — PureLogics</sub>
+<br />
 
-<br /><br />
+<img src="assets/headers/04.svg" width="100%" alt="04 — Toolkit" />
 
-<img src="assets/headers/activity.svg" width="100%" alt="05 — Activity" />
+<img src="assets/bento/stack.svg" width="100%" alt="Toolkit — AI/ML: LangChain, RAG, ChromaDB, GPT-4o, Claude, Gemini, TensorFlow, scikit-learn, OCR. Backend: Python, Django REST, FastAPI, NestJS, Node.js. Frontend: Next.js, React, TypeScript, Tailwind. Data: PostgreSQL, MongoDB, Redis, Prisma. Cloud and tools: AWS, ECS Fargate, S3, Docker, DigitalOcean, Linux, Git." />
+
+<p align="center"><sub>📜 &nbsp;Python for Data Science — IBM &nbsp;·&nbsp; Django REST Framework — Udemy &nbsp;·&nbsp; Python AI/ML Bootcamp — PureLogics</sub></p>
+
+<br />
+
+<img src="assets/headers/05.svg" width="100%" alt="05 — Activity" />
 
 <img src="assets/stats.svg" width="100%" alt="GitHub stats: repositories, languages, contributions and top languages" />
 
@@ -81,13 +56,12 @@ I'm a **Software Engineer in Lahore** who builds **AI-powered web applications**
   <img src="https://raw.githubusercontent.com/Rohankhan5990/Rohankhan5990/output/snake-dark.svg" width="100%" alt="Contribution graph being eaten by a snake" />
 </picture>
 
-<br />
+<br /><br />
 
-<img src="assets/headers/connect.svg" width="100%" alt="06 — Connect" />
+<img src="assets/contact.svg" width="100%" alt="Let's build something intelligent. Open to AI/ML and full-stack roles, remote, hybrid or on-site, and to LLM product collaborations." />
 
-Open to **AI / ML and full-stack roles** — remote, hybrid or on-site — and to interesting product collaborations.
-Building something with LLMs? I'd like to hear about it.
-
-**✉️ [rohankhan5990@gmail.com](mailto:rohankhan5990@gmail.com)** &nbsp;·&nbsp; **[LinkedIn](https://www.linkedin.com/in/rohan-khan-01584a23a/)** &nbsp;·&nbsp; **[Portfolio](https://rohan-portfolio-e864a.web.app)** &nbsp;·&nbsp; 📱 +92 311 4364909
-
-<p align="center"><sub><i>Data in, intelligence out — shipped.</i></sub></p>
+<p align="center">
+  <a href="mailto:rohankhan5990@gmail.com"><img src="https://img.shields.io/badge/rohankhan5990@gmail.com-8b5cf6?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://www.linkedin.com/in/rohan-khan-01584a23a/"><img src="https://img.shields.io/badge/LinkedIn-22d3ee?style=for-the-badge&logo=linkedin&logoColor=0b0a14" alt="LinkedIn" /></a>
+  <a href="https://rohan-portfolio-e864a.web.app"><img src="https://img.shields.io/badge/Portfolio-f472b6?style=for-the-badge&logo=googlechrome&logoColor=0b0a14" alt="Portfolio" /></a>
+</p>
