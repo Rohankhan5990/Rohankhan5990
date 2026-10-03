@@ -1,0 +1,58 @@
+name: Refresh profile
+
+on:
+  schedule:
+    - cron: '17 0 * * *' # daily
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['scripts/**', '.github/workflows/profile.yml']
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile
+  cancel-in-progress: true
+
+jobs:
+  snake:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake-dark.svg?palette=github-dark&color_snake=#67e8f9&color_dots=#0c0f1c,#1e2a5a,#3b4bb0,#7c6cf0,#a78bfa
+            dist/snake-light.svg?color_snake=#6d5bd0&color_dots=#eef0f6,#c7cdf5,#9aa5ef,#7c6cf0,#5b46c9
+      - uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+          commit_message: 'chore: refresh contribution snake'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  stats:
+    # GITHUB_TOKEN only sees public repos, so the card refreshes only when a
+    # PROFILE_TOKEN secret (fine-grained PAT, read-only "Metadata" on all repos) is set.
+    runs-on: ubuntu-latest
+    env:
+      PROFILE_TOKEN: ${{ secrets.PROFILE_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+        if: env.PROFILE_TOKEN != ''
+      - uses: actions/setup-node@v4
+        if: env.PROFILE_TOKEN != ''
+        with:
+          node-version: 22
+      - name: Build stats card
+        if: env.PROFILE_TOKEN != ''
+        run: GITHUB_TOKEN="$PROFILE_TOKEN" node scripts/stats.mjs
+      - name: Commit
+        if: env.PROFILE_TOKEN != ''
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/stats.svg
+          git diff --cached --quiet || (git commit -m "chore: refresh stats card" && git push)
