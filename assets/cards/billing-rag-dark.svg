@@ -16,7 +16,7 @@
 <path d="M24 0.75 H446 A23.25 23.25 0 0 1 469.25 24 V176 A23.25 23.25 0 0 1 446 199.25 H24 A23.25 23.25 0 0 1 0.75 176 V24 A23.25 23.25 0 0 1 24 0.75 Z" fill="#0c0f1c" stroke="#1d2340" stroke-width="1.5"/>
 <path d="M24 0.75 H446 A23.25 23.25 0 0 1 469.25 24 V176 A23.25 23.25 0 0 1 446 199.25 H24 A23.25 23.25 0 0 1 0.75 176 V24 A23.25 23.25 0 0 1 24 0.75 Z" fill="url(#bg)"/>
 <path id="edge" d="M24 0.75 H446 A23.25 23.25 0 0 1 469.25 24 V176 A23.25 23.25 0 0 1 446 199.25 H24 A23.25 23.25 0 0 1 0.75 176 V24 A23.25 23.25 0 0 1 24 0.75 Z" fill="none"/>
-<g><circle r="16" fill="url(#glow)" opacity=".55"/><circle r="1.8" fill="#fff"/><animateMotion dur="9s" begin="-2.8s" repeatCount="indefinite"><mpath href="#edge"/></animateMotion></g>
+<g><circle r="16" fill="url(#glow)" opacity=".55"/><circle r="1.8" fill="#ffffff"/><animateMotion dur="9s" begin="-2.8s" repeatCount="indefinite"><mpath href="#edge"/></animateMotion></g>
 <text class="tag" x="24" y="36">RAG ASSISTANT</text>
 
 <text class="arrow" x="432" y="38">↗</text>

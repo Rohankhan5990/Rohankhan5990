@@ -13,7 +13,7 @@
 
 <br />
 
-<img src="assets/headers/about.svg" width="100%" alt="01 — About" />
+<picture><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Rohankhan5990/Rohankhan5990/main/assets/headers/about-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Rohankhan5990/Rohankhan5990/main/assets/headers/about-dark.svg" /><img src="assets/headers/about-dark.svg" width="100%" alt="01 — About" /></picture>
 
 I'm a **Software Engineer in Lahore** who builds **AI-powered web applications** end to end — from the retrieval pipeline and the LLM prompt to the API, the interface and the cloud it runs on.
 
@@ -22,46 +22,32 @@ I'm a **Software Engineer in Lahore** who builds **AI-powered web applications**
 - 🖥️ &nbsp;**Web** — Next.js and React products with clean, fast interfaces
 - ☁️ &nbsp;**Cloud** — AWS (S3, ECS Fargate, CloudWatch) and DigitalOcean, with **99%+ uptime** in production
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <sub><b>NOW</b></sub><br />
-      <b>Software Engineer · Techverx</b> <sub>Jul 2025 – present</sub><br />
-      <sub>Enterprise SaaS APIs, RAG document Q&amp;A, QuickBooks automation (~80% less manual accounting), ~40% lower API latency.</sub>
-    </td>
-    <td width="50%" valign="top">
-      <sub><b>BEFORE</b></sub><br />
-      <b>GenITeam Solutions</b> <sub>Associate SE · 2024 – 25</sub><br />
-      <b>InvoZone</b> <sub>Django intern · 2024</sub> &nbsp;·&nbsp; <b>PureLogics</b> <sub>Python / data science · 2023</sub><br />
-      <sub>🎓 BSCS, University of South Asia (2020 – 2024)</sub>
-    </td>
-  </tr>
-</table>
+<picture><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Rohankhan5990/Rohankhan5990/main/assets/experience-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Rohankhan5990/Rohankhan5990/main/assets/experience-dark.svg" /><img src="assets/experience-dark.svg" width="100%" alt="Experience: 2023 Python intern at PureLogics; 2024 Django developer intern at InvoZone; 2024–25 Associate Software Engineer at GenITeam; 2025–now Software Engineer at Techverx. BSCS, University of South Asia, 2020–2024." /></picture>
 
 <br />
 
-<img src="assets/headers/flow.svg" width="100%" alt="02 — How I build" />
+<picture><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Rohankhan5990/Rohankhan5990/main/assets/headers/flow-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Rohankhan5990/Rohankhan5990/main/assets/headers/flow-dark.svg" /><img src="assets/headers/flow-dark.svg" width="100%" alt="02 — How I build" /></picture>
 
-<img src="assets/pipeline.svg" width="100%" alt="The pipeline behind my AI web apps: data, embed, retrieve, reason, serve, ship — with an evaluation and user-feedback loop back to the data." />
+<picture><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Rohankhan5990/Rohankhan5990/main/assets/pipeline-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Rohankhan5990/Rohankhan5990/main/assets/pipeline-dark.svg" /><img src="assets/pipeline-dark.svg" width="100%" alt="The pipeline behind my AI web apps: data, embed, retrieve, reason, serve, ship — with an evaluation and user-feedback loop back to the data." /></picture>
 
 <br />
 
-<img src="assets/headers/work.svg" width="100%" alt="03 — Selected work" />
+<picture><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Rohankhan5990/Rohankhan5990/main/assets/headers/work-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Rohankhan5990/Rohankhan5990/main/assets/headers/work-dark.svg" /><img src="assets/headers/work-dark.svg" width="100%" alt="03 — Selected work" /></picture>
 
 <p>
-  <a href="https://mercurydasha.com"><img src="assets/cards/mercury-dasha.svg" width="49%" alt="Mercury Dasha — generative AI platform for text, image and video" /></a>
-  <a href="https://travelwithmoiz.com"><img src="assets/cards/ai-travel.svg" width="49%" alt="AI Travel Platform — RAG chatbot and WhatsApp booking, live" /></a>
-  <a href="https://github.com/rohan-techverx/BIlling-reports-rag"><img src="assets/cards/billing-rag.svg" width="49%" alt="Billing Reports RAG — natural-language Q&amp;A over billing reports" /></a>
-  <a href="https://rohan-portfolio-e864a.web.app"><img src="assets/cards/kheloo.svg" width="49%" alt="Kheloo — sports court booking with Gemini smart search" /></a>
-  <a href="https://rohan-portfolio-e864a.web.app"><img src="assets/cards/pdf-fraud.svg" width="49%" alt="PDF Fraud Detector — machine-learning document analysis" /></a>
-  <a href="https://rohan-portfolio-e864a.web.app"><img src="assets/cards/pmo-engine.svg" width="49%" alt="PMO Engine (T360) — enterprise platform on NestJS and AWS" /></a>
+  <a href="https://mercurydasha.com"><picture><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Rohankhan5990/Rohankhan5990/main/assets/cards/mercury-dasha-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Rohankhan5990/Rohankhan5990/main/assets/cards/mercury-dasha-dark.svg" /><img src="assets/cards/mercury-dasha-dark.svg" width="49%" alt="Mercury Dasha — generative AI platform for text, image and video" /></picture></a>
+  <a href="https://travelwithmoiz.com"><picture><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Rohankhan5990/Rohankhan5990/main/assets/cards/ai-travel-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Rohankhan5990/Rohankhan5990/main/assets/cards/ai-travel-dark.svg" /><img src="assets/cards/ai-travel-dark.svg" width="49%" alt="AI Travel Platform — RAG chatbot and WhatsApp booking, live" /></picture></a>
+  <a href="https://github.com/rohan-techverx/BIlling-reports-rag"><picture><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Rohankhan5990/Rohankhan5990/main/assets/cards/billing-rag-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Rohankhan5990/Rohankhan5990/main/assets/cards/billing-rag-dark.svg" /><img src="assets/cards/billing-rag-dark.svg" width="49%" alt="Billing Reports RAG — natural-language Q&amp;A over billing reports" /></picture></a>
+  <a href="https://rohan-portfolio-e864a.web.app"><picture><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Rohankhan5990/Rohankhan5990/main/assets/cards/kheloo-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Rohankhan5990/Rohankhan5990/main/assets/cards/kheloo-dark.svg" /><img src="assets/cards/kheloo-dark.svg" width="49%" alt="Kheloo — sports court booking with Gemini smart search" /></picture></a>
+  <a href="https://rohan-portfolio-e864a.web.app"><picture><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Rohankhan5990/Rohankhan5990/main/assets/cards/pdf-fraud-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Rohankhan5990/Rohankhan5990/main/assets/cards/pdf-fraud-dark.svg" /><img src="assets/cards/pdf-fraud-dark.svg" width="49%" alt="PDF Fraud Detector — machine-learning document analysis" /></picture></a>
+  <a href="https://rohan-portfolio-e864a.web.app"><picture><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Rohankhan5990/Rohankhan5990/main/assets/cards/pmo-engine-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Rohankhan5990/Rohankhan5990/main/assets/cards/pmo-engine-dark.svg" /><img src="assets/cards/pmo-engine-dark.svg" width="49%" alt="PMO Engine (T360) — enterprise platform on NestJS and AWS" /></picture></a>
 </p>
 
 <br />
 
-<img src="assets/headers/toolkit.svg" width="100%" alt="04 — Toolkit" />
+<picture><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Rohankhan5990/Rohankhan5990/main/assets/headers/toolkit-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Rohankhan5990/Rohankhan5990/main/assets/headers/toolkit-dark.svg" /><img src="assets/headers/toolkit-dark.svg" width="100%" alt="04 — Toolkit" /></picture>
 
-<img src="assets/toolkit.svg" width="100%" alt="Toolkit — AI/ML: LangChain, RAG, ChromaDB, GPT, Claude, Gemini, TensorFlow, scikit-learn. Backend: Python, Django, FastAPI, NestJS, Node.js. Frontend: Next.js, React, Tailwind. Data: PostgreSQL, MongoDB, Redis. Cloud: AWS, DigitalOcean, Docker." />
+<picture><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Rohankhan5990/Rohankhan5990/main/assets/toolkit-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Rohankhan5990/Rohankhan5990/main/assets/toolkit-dark.svg" /><img src="assets/toolkit-dark.svg" width="100%" alt="Toolkit — AI/ML: LangChain, RAG, ChromaDB, GPT, Claude, Gemini, TensorFlow, scikit-learn. Backend: Python, Django, FastAPI, NestJS, Node.js. Frontend: Next.js, React, Tailwind. Data: PostgreSQL, MongoDB, Redis. Cloud: AWS, DigitalOcean, Docker." /></picture>
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=py,tensorflow,sklearn,django,fastapi,nestjs,nodejs,ts,react,nextjs,tailwind,postgres,mongodb,redis,prisma,docker,aws,linux,git&perline=19&theme=dark" width="100%" alt="Python, TensorFlow, scikit-learn, Django, FastAPI, NestJS, Node.js, TypeScript, React, Next.js, Tailwind, PostgreSQL, MongoDB, Redis, Prisma, Docker, AWS, Linux, Git" />
@@ -71,9 +57,9 @@ I'm a **Software Engineer in Lahore** who builds **AI-powered web applications**
 
 <br /><br />
 
-<img src="assets/headers/activity.svg" width="100%" alt="05 — Activity" />
+<picture><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Rohankhan5990/Rohankhan5990/main/assets/headers/activity-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Rohankhan5990/Rohankhan5990/main/assets/headers/activity-dark.svg" /><img src="assets/headers/activity-dark.svg" width="100%" alt="05 — Activity" /></picture>
 
-<img src="assets/stats.svg" width="100%" alt="GitHub stats: repositories, languages, contributions and top languages" />
+<picture><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Rohankhan5990/Rohankhan5990/main/assets/stats-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Rohankhan5990/Rohankhan5990/main/assets/stats-dark.svg" /><img src="assets/stats-dark.svg" width="100%" alt="GitHub stats: repositories, languages, contributions and top languages" /></picture>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Rohankhan5990/Rohankhan5990/output/snake-dark.svg" />
@@ -83,7 +69,7 @@ I'm a **Software Engineer in Lahore** who builds **AI-powered web applications**
 
 <br />
 
-<img src="assets/headers/connect.svg" width="100%" alt="06 — Connect" />
+<picture><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Rohankhan5990/Rohankhan5990/main/assets/headers/connect-light.svg" /><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Rohankhan5990/Rohankhan5990/main/assets/headers/connect-dark.svg" /><img src="assets/headers/connect-dark.svg" width="100%" alt="06 — Connect" /></picture>
 
 Open to **AI / ML and full-stack roles** — remote, hybrid or on-site — and to interesting product collaborations.
 Building something with LLMs? I'd like to hear about it.

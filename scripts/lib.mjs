@@ -2,18 +2,19 @@
 // SVGs rendered through <img> cannot load external fonts, so each file embeds
 // a Google Fonts subset that contains only the glyphs it actually uses.
 
-export const T = {
-  bg: '#07080e',
-  panel: '#0c0f1c',
-  line: '#1d2340',
-  text: '#f4f1ea',
-  body: '#a3a9bf',
-  muted: '#5d647d',
-  cyan: '#67e8f9',
-  violet: '#a78bfa',
-  indigo: '#818cf8',
-  warm: '#fcd9a8',
+export const THEMES = {
+  dark: {
+    bg: '#07080e', panel: '#0c0f1c', line: '#1d2340', glow: '#141a33',
+    text: '#f4f1ea', body: '#a3a9bf', muted: '#5d647d', chip: '#c7cbe0', stamp: '#3a4060', core: '#ffffff',
+    cyan: '#67e8f9', violet: '#a78bfa', indigo: '#818cf8', warm: '#fcd9a8', green: '#86efac',
+  },
+  light: {
+    bg: '#f6f7fb', panel: '#ffffff', line: '#e3e6ef', glow: '#eef1ff',
+    text: '#12141c', body: '#4b5168', muted: '#8a90a6', chip: '#3b4058', stamp: '#b6bbcc', core: '#4f46e5',
+    cyan: '#0e7490', violet: '#6d28d9', indigo: '#4f46e5', warm: '#b45309', green: '#15803d',
+  },
 };
+export const T = THEMES.dark;
 
 const FAMILIES = {
   serif: { css: 'Instrument+Serif:ital@0;1', name: 'Instrument Serif' },

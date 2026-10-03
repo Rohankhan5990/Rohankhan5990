@@ -10,5 +10,5 @@
 <text class="n" x="2" y="44">05</text>
 <text class="t" x="44" y="50">Activity</text>
 <rect x="216" y="38.5" width="724" height="1" fill="url(#g)"/>
-<g class="dot"><circle cx="216" cy="39" r="7" fill="url(#glow)" opacity=".7"/><circle cx="216" cy="39" r="2" fill="#fff"/></g>
+<g class="dot"><circle cx="216" cy="39" r="7" fill="url(#glow)" opacity=".7"/><circle cx="216" cy="39" r="2" fill="#ffffff"/></g>
 </svg>
